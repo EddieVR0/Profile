@@ -9,7 +9,7 @@ toggleButton.addEventListener('click', () => {
     document.querySelector('section').classList.toggle('dark-mode');
     
     document.querySelectorAll('.cards').forEach(card => card.classList.toggle('dark-mode'));
-    
+     
 
     // Cambiar la imagen según el modo
     if (document.body.classList.contains('dark-mode')) {
